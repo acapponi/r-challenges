@@ -1,2 +1,4 @@
 # r-challenges
-My answers to Rosalind's challenges, in R
+My answers to Rosalind's problems using R language.
+
+You can check my progress at http://rosalind.info/users/acapponi/
