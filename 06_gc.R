@@ -1,7 +1,7 @@
 library("Biostrings")
 library(stringr)
 
-fastaFile <- readDNAStringSet('rosalind_gc (1).txt')
+fastaFile <- readDNAStringSet('rosalind_gc.txt')
 seq_name = names(fastaFile)
 sequence = paste(fastaFile)
 #df <- data.frame(seq_name, sequence)

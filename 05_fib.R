@@ -1,3 +1,5 @@
+library(gmp) #for big numbers
+
 rabbits <- function(n,k) {
   if(n <= 1) {
     return(n)
@@ -10,6 +12,6 @@ rabbits <- function(n,k) {
   }
 }
 
-n <- 36
+n <- 5
 k <- 3
-rabbits(n,k)
+as.bigz(rabbits(n,k))
